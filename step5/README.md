@@ -53,7 +53,7 @@ CodePipeline 用のバケットを作成します。
 (account_id  はご自身のものへ変更)  
 
 ```
-aws s3api create-bucket --bucket codepipeline-ap-northeast-1-<account_id>
+aws s3api create-bucket --bucket codepipeline-ap-northeast-1-<account_id> --create-bucket-configuration LocationConstraint=ap-northeast-1
 ```
 
 ## CodePipeline
